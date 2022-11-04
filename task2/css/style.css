@@ -1,0 +1,236 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}   
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+     .profile{
+        height:80vh;
+        width:100%;
+        background-image:url(../images/co.png); 
+        background-size:cover;      
+        background-position: center;
+            }
+
+        nav{
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top:45px;
+            padding-left:8%;
+            padding-right:8%;
+            
+        }
+        .logo{
+            color:white;
+            font-size: 35px;
+            letter-spacing: 1px;
+            cursor:pointer;
+        }
+        nav ul li{
+            display:inline;
+            list-style-type: none;
+            padding: 10px 25px;
+        }
+        nav ul li a{
+            color:white;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform:capitalize;
+        }
+        nav ul li a:hover{
+            color:blueviolet;
+            transition:0.4s;
+        }
+        .btn{
+            display:inline-block;
+            background:#FF5F1F;
+            color:white;
+            padding:8px 30px;
+            margin:30px 0;
+            border-radius:30px;
+            transition:0.5s;
+            text-decoration-line: none;
+        }
+        .btn:hover{
+            background:rgb(232, 232, 237);
+            color:#0b0705;
+        }
+        span{
+            color:#FF5F1F
+        }
+        .topic{
+           position:absolute;
+           top:50%;
+           left:8%;
+           transform: translateY(-50%); 
+        }
+        h1{
+            color:white;
+            margin:20px 0px 20px;
+            font-size:75px;
+
+        }
+
+        h3{
+            color:white;
+            font-size: 25px;
+            margin-bottom:50px;
+
+
+        }
+        h4{
+            color:white;
+            letter-spacing:2px;
+            font-size:20px;
+
+        }
+        .About{
+             margin:40px 0;
+            background-image: url(../images/cover.png);
+            background-position: center;
+             height: 300px;
+       
+        }
+       
+             .About h1{
+                color:#FF5F1F;
+                font-size: 35px;
+                letter-spacing: 1px;
+                cursor:pointer;
+                text-align: center;
+                
+               
+             }
+             .column-1 p{
+                text-align:justify;
+                color:white;
+                margin:50px;
+             }
+             .Certifcation{
+               margin:40px 0;
+                background-image: url(../images/cover.png);
+             }
+             .Certifcation h1{
+                color:#FF5F1F;
+                font-size: 35px;
+                letter-spacing: 1px;
+                cursor:pointer;
+                text-align: center;
+             }
+             .section{
+  
+                max-width:1080px;
+                margin:auto;
+                padding-right:25px;
+                text-align: center;
+               
+               
+            
+             }
+             .line{
+                display:flex;
+                align-items:center;
+                flex-wrap:wrap;
+                justify-content:space-around;
+                 }
+             .column-2{
+                flex-basis:30%;
+                min-width: 250px;
+                margin-bottom:30px;
+                transition: transform 0.5s;
+                text-align:justify;
+             }
+             .column-2 h3{
+                text-align: center;
+             }
+             .column-2 h5{
+                color:#FF5F1F;
+                font-weight: 200;
+             }
+               
+             .column-2 li{
+                color:white;
+               
+             }
+
+             .roles{
+            margin:40px ;
+            background-image: url(../images/cover.png);
+            background-position: center;
+            height: 250px;
+       
+        }
+       
+             .roles h1{
+                color:#FF5F1F;
+                font-size: 35px;
+                letter-spacing: 1px;
+                cursor:pointer;
+                text-align: center;
+             }
+             .column-3 li{
+                text-align:justify;
+                color:white;
+               margin-left:150px;
+               
+             }
+             .Exp{
+                margin:40px ;
+                background-image: url(../images/cover.png);
+                background-position: center;
+                height: 250px;
+                margin:40px 0;
+           
+             }
+             .Exp h1{
+                color:#FF5F1F;
+                font-size: 35px;
+                letter-spacing: 1px;
+                cursor:pointer;
+                text-align: center;
+             }
+             .column-3 li{
+                text-align:justify;
+                color:white;
+               margin-left:150px;
+             
+             }
+             .column-3 h4{
+                color:#FF5F1F;
+                font-weight: 200;
+                text-align: center;
+             }
+             .footer{
+                padding:40px 0;
+                background-color: #2c2424;
+                margin:40px ;
+
+             }
+             .footer .social{
+                text-align: center;
+                padding-bottom:25px;
+                color:#FF5F1F;
+
+             }
+             .footer .social a{
+                font-size: 24px;
+                color:inherit;
+                border:1px solid white;
+                width:40px;
+                height:40px;
+                line-height:38px;
+                display:inline-block;
+                border-radius:10px;
+                margin:0 8px;
+                opacity:0.75;
+
+             }
+             .footer .social a:hover{
+                color:white;
+            transition:0.4s;
+             }
